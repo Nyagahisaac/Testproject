@@ -5,5 +5,30 @@
     list-style: none;
 }
 body{
-    color: aliceblue;
+    color:black;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    border: 10px solid black;
+    padding: 10px;
+    color: black;
+}
+@media screen and (min-width: 500px) {
+
+}
+
+
+@media screen and (min-width: 480px) {
+      
+    
+    .nav-menu{
+        padding: 10px;
+        font-size: 35px;
+        color: indianred;
+    }
+    body{
+        background-color:#fff;
+    }
+    
 }
